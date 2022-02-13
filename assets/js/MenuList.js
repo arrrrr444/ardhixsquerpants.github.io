@@ -20,8 +20,8 @@ item_list = [{
 	name: 'Downloader',
 	icon: 'fas fa-arrow-down',
 	item: [{
-		"url": "/api/ytvideo",
-		"name": "Yt video downloader"
+		"url": "/api/ardi",
+		"name": "Yt video ardi downloader"
 	},
 		{
 			"url": "/api/ytaudio",
