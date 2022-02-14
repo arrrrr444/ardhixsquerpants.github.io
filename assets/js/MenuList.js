@@ -13,7 +13,7 @@ message_list = [{
 }, {
 	icon: 'fal fa-engine-warning',
 	title: 'Menu error? lapor owner!',
-	timing: 'wa.me/+6288294052009'
+	timing: '1631004127580'
 }];
 
 item_list = [{
