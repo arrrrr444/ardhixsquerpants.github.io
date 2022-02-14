@@ -72,36 +72,40 @@ item_list = [{
 		name: 'TextPro',
 		icon: 'fas fa-text-height',
 		item: [{
-			"url": "/api/textpro/tiktok",
-			"name": "Create Glitch Text Effect Style Tik Tok"
+			"url": "api/textpro/glitch?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
+			"name": "Glitch/Tik Tok"
 		},
 			{
-				"url": "/api/textpro/neon-devil-wings",
-				"name": "Create neon devil wings text effect online free"
+				"url": "api/textpro/glitch2?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
+				"name": "Glitch"
 			},
 			{
-				"url": "/api/textpro/futuristic-technology",
-				"name": "Create a futuristic technology neon light text effect"
+				"url": "api/textpro/devil-wings?text=ArdhixS&apikey=ENTER_APIKEY_HERE",
+				"name": "Neon Devil Wings"
 			},
 			{
-				"url": "/api/textpro/on-the-beach",
-				"name": "Create 3D realistic text effect on the beach online"
+				"url": "api/textpro/logo-wolf?text=ardi&text2=Ardhi%20Ganz&apikey=ENTER_APIKEY_HERE",
+				"name": "Logo Wolf(White)"
 			},
 			{
-				"url": "/api/textpro/3d-underwater-text",
-				"name": "3D underwater text effect generator online"
+				"url": "api/textpro/logo-wolf2?text=ardi&text2=Ardhi%20Ganz&apikey=ENTER_APIKEY_HERE",
+				"name": "Logo Wolf"
 			},
 			{
-				"url": "/api/textpro/black-white-bear-mascot",
-				"name": "Online black and white bear mascot logo creation"
+				"url": "api/textpro/pornhub?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
+				"name": "Pornhub Logo"
 			},
 			{
-				"url": "/api/textpro/on-the-beach",
-				"name": "3d realistic text effect on the beach online"
+				"url": "api/textpro/logo-joker?text=ardhixs&apikey=ENTER_APIKEY_HERE",
+				"name": "Logo Joker"
+			},
+			{
+				"url": "api/textpro/advanced-glow?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Advanced Glow"
 			}]
 	},
 	{
-		name: 'Photooxy',
+		name: 'Image',
 		icon: 'fas fa-image',
 		item: [{
 			url: "/api/photoxy/manga-naruto",
