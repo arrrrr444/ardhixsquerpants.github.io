@@ -20,60 +20,52 @@ item_list = [{
 	name: 'Downloader',
 	icon: 'fas fa-arrow-down',
 	item: [{
-		"url": "/api/ardi",
-		"name": "Yt video ardi downloader"
+		"url": "api/info/mediafire?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+		"name": "Mediafire File Downloader"
 	},
 		{
-			"url": "/api/ytaudio",
-			"name": "Yt audio downloader"
+			"url": "api/music/joox?query=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Joox Downloader"
 		},
 		{
-			"url": "/api/yt2/video",
-			"name": "Yt video downloader 2"
+			"url": "api/download/ytmp3?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Yt Audio Downloader"
 		},
 		{
-			"url": "/api/yt2/audio",
-			"name": "Yt audio downloader 2"
+			"url": "api/download/ytmp4?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Yt Video Downloader"
 		},
 		{
-			"url": "/api/aboutyt",
-			"name": "Yt scraper"
+			"url": "api/yt/playmp3?query=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Yt Play Mp3"
 		},
 		{
-			"url": "/api/ytplay",
-			"name": "YtPlay"
+			"url": "api/yt/playmp4?query=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Yt Play Mp4"
 		},
 		{
-			"url": "/api/soundcloud/play",
-			"name": "sound cloud play"
+			"url": "api/download/tiktok?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Tiktok Downloader"
 		},
 		{
-			"url": "/api/soundcloud/download",
-			"name": "sound cloud downloader"
+			"url": "api/download/ig?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Instagram Downloader"
 		},
 		{
-			"url": "/api/tiktok",
-			"name": "tiktok downloader"
+			"url": "api/download/fb?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
+			"name": "Facebook Downloader"
 		},
 		{
-			"url": "/api/pinterest",
-			"name": "Pinterest"
+			"url": "api/stalk/tiktok?username=ENTER_USERNAME&apikey=ENTER_APIKEY_HERE",
+			"name": "Tiktok Stalker"
 		},
 		{
-			url: '/docs/top4top',
-			name: 'top4top uploader',
+			url: 'api/stalk/ig?username=ardhi_xsquerpants&apikey=ENTER_APIKEY_HERE',
+			name: 'Instagram Stalker',
 		},
 		{
-			"url": "/api/googlesearch",
-			"name": "google result search"
-		},
-		{
-			"url": "/api/nhentai",
-			"name": "nhentai pdf downloader"
-		},
-		{
-			"url": "/api/githubstalk",
-			"name": "Github stalk"
+			"url": "api/stalk/npm?query=ENTER&apikey=ENTER_APIKEY_HERE",
+			"name": "Npm Stalker"
 		}]
 },
 	{
