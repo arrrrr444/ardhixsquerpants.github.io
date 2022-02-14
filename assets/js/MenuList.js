@@ -80,6 +80,10 @@ item_list = [{
 				"name": "Glitch"
 			},
 			{
+				"url": "api/textpro/impressive-glitch?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Impressive Glitch"
+			},
+			{
 				"url": "api/textpro/devil-wings?text=ArdhixS&apikey=ENTER_APIKEY_HERE",
 				"name": "Neon Devil Wings"
 			},
@@ -98,6 +102,62 @@ item_list = [{
 			{
 				"url": "api/textpro/logo-joker?text=ardhixs&apikey=ENTER_APIKEY_HERE",
 				"name": "Logo Joker"
+			},
+			{
+				"url": "api/textpro/ninja-logo?text=Ardhi&text2=serah%20aing%20anjg&apikey=ENTER_APIKEY_HERE",
+				"name": "Logo Ninja"
+			},
+			{
+				"url": "api/textpro/marvel-studios?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
+				"name": "Marvel Studios(red)"
+			},
+			{
+				"url": "api/textpro/dropwater?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Drop Water"
+			},
+			{
+				"url": "api/textpro/drop-water?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Drop Water2"
+			},
+			{
+				"url": "api/textpro/bear-mascot?text=ArdhixS&apikey=ENTER_APIKEY_HERE",
+				"name": "Bear Mascot"
+			},
+			{
+				"url": "api/textpro/natural-leaves?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Natural Leaves"
+			},
+			{
+				"url": "api/textpro/matrix?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Matrix"
+			},
+			{
+				"url": "api/textpro/firework?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Firework Sparkle"
+			},
+			{
+				"url": "api/textpro/christmas?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "Christmas"
+			},
+			{
+				"url": "api/textpro/black-pink?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "BlackPink"
+			},
+			{
+				"url": "api/textpro/3d-golden-ancient?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "3D Golden Ancient"
+			},
+			{
+				"url": "api/textpro/3d-gradient?text=ardi&apikey=ENTER_APIKEY_HERE",
+				"name": "3D Gradient"
+			},
+			{
+				"url": "api/textpro/thunder?text=Ardixs&apikey=ENTER_APIKEY_HERE",
+				"name": "Thunder"
+			},
+			{
+				"url": "api/textpro/thunder2?text=Ardixs&apikey=ENTER_APIKEY_HERE",
+				"name": "Thunder2 (New)"
 			},
 			{
 				"url": "api/textpro/advanced-glow?text=ardi&apikey=ENTER_APIKEY_HERE",
