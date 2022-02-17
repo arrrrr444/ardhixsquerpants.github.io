@@ -133,7 +133,7 @@ try {
 				});
 			}, 2500);
 		} else {
-			fetch("https://api.countapi.xyz/hit/hadi-api-viewer/").then(res=>res.json()).then(res=> {
+			fetch("https://api.countapi.xyz/hit/ardhixs-api-viewer/").then(res=>res.json()).then(res=> {
 				localStorage.setItem('Pengunjung', 'true');
 				tag_pengunjung.innerHTML = res.value+" <small>perangkat</small>";
 			});
@@ -212,19 +212,19 @@ try {
 			detik = duo(new Date().getSeconds());
 
 			if (jam >= 19) {
-				clock_string = 'malam';
+				clock_string = 'Selamat Malam';
 			} else if (jam >= 18) {
-				clock_string = 'petang';
+				clock_string = 'Petang';
 			} else if (jam >= 15) {
-				clock_string = 'Sore';
+				clock_string = 'Selamat Sore';
 			} else if (jam >= 10) {
-				clock_string = 'Siang';
+				clock_string = 'Selamat Siang';
 			} else if (jam >= 5) {
-				clock_string = 'Pagi';
+				clock_string = 'Selamat Pagi';
 			} else if (jam >= 3) {
-				clock_string = 'subuh';
+				clock_string = 'Subuh';
 			} else if (jam >= 0) {
-				clock_string = 'dini hari';
+				clock_string = 'Dini Hari';
 			} else {
 				clock_string = 'hai bang';
 			}
