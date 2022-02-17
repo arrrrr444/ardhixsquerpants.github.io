@@ -381,8 +381,8 @@ item_list = [
 		name: 'Contact',
 		icon: 'fas fa-user-headset',
 		item: [{
-			event: 'DO NOT SPAM',
-			url: 'https://wa.me/628990911211',
-			name: 'Whatsapp'
+			event: 'NO SELEB BANG',
+			url: 'https://www.instagram.com/ardhixsquerpants/',
+			name: 'Instagram'
 		}]
 	}];
