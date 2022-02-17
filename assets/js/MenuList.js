@@ -16,8 +16,51 @@ message_list = [{
 	timing: '1631004127580'
 }];
 
-item_list = [{
-	name: 'Downloader',
+item_list = [
+	{
+		name: 'Random',
+		icon: 'fas fa-bullseye',
+		item: [{
+			event: 'NSFW/SFW',
+			url: '/api/neko',
+			name: 'Neko'
+		},
+			{
+				event: 'NSFW',
+				url: '/api/neko2',
+				name: 'Neko2'
+			},
+			{
+				url: '/api/randomImage/cecan',
+				name: 'cecan'
+			},
+			{
+				event: 'NEW',
+				url: '/api/randomImage/img/megumin',
+				name: 'megumin'
+			},
+			{
+				url: '/api/loli',
+				name: 'Loli'
+			},
+			{
+				event: 'NSFW/SFW',
+				url: '/api/walpaperanime',
+				name: 'Wallpaperanime'
+			},
+			{
+				event: 'NSFW/SFW',
+				url: '/api/wallpaperflare',
+				name: 'Wallpaperflare'
+			},
+			{
+				event: 'NSFW/SFW',
+				url: '/api/wallpaperhd',
+				name: 'WallpaperHD'
+			}]
+	},
+   {
+	name: 'Downloader/Media API',
 	icon: 'fas fa-arrow-down',
 	item: [{
 		"url": "api/info/mediafire?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
@@ -69,7 +112,7 @@ item_list = [{
 		}]
 },
 	{
-		name: 'TextPro',
+		name: 'TextPro API',
 		icon: 'fas fa-text-height',
 		item: [{
 			"url": "api/textpro/glitch?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
@@ -165,568 +208,197 @@ item_list = [{
 			}]
 	},
 	{
-		name: 'Image',
+		name: 'Random Image API',
 		icon: 'fas fa-image',
 		item: [{
-			url: "/api/photoxy/manga-naruto",
-			name: "make naruto banner online free"
+			url: "api/dadu?apikey=ENTER_APIKEY_HERE",
+			name: "Dadu"
 		},
 			{
-				url: "/api/photoxy/flaming-fire",
-				name: "realistic flaming text effect online"
+				url: "api/asupan?apikey=ENTER_APIKEY_HERE",
+				name: "Asupan"
 			},
 			{
-				url: "/api/photoxy/tiktok-effect",
-				name: "make tik tok text effect"
+				url: "api/anime/loli?apikey=ENTER_APIKEY_HERE",
+				name: "Loli"
 			},
 			{
-				url: "/api/photoxy/metalic-gold",
-				name: "Create metallic text glow online"
+				url: "api/random/hentai?apikey=ENTER_APIKEY_HERE",
+				name: "Hentai"
 			},
 			{
-				url: "/api/photoxy/shadow-sky",
-				name: "Shadow text effect in the sky"
+				url: "api/nsfw/hentong?apikey=ENTER_APIKEY_HERE",
+				name: "Hentai 2"
 			},
 			{
-				url: "/api/photoxy/teks-cup",
-				name: "write text on the cup"
+				url: "api/random/trapnime?apikey=ENTER_APIKEY_HERE",
+				name: "Trapnime"
 			},
 			{
-				url: "/api/photoxy/romantic-messages",
-				name: "romantic messages for your loved one"
+				url: "api/random/nekonime?apikey=ENTER_APIKEY_HERE",
+				name: "Nekonime"
 			},
 			{
-				url: "/api/photoxy/burn-paper",
-				name: "write text on burn paper"
-			},
-			{
-				url: "/api/photoxy/funny-cup",
-				name: "put text on the cup"
-			},
-			{
-				url: "/api/photoxy/love-messages",
-				name: "create a picture of love message"
-			},
-			{
-				url: "/api/photoxy/under-grass",
-				name: "make quotes under grass"
-			},
-			{
-				url: "/api/photoxy/romantic-double",
-				name: "love text effect"
-			},
-			{
-				url: "/api/photoxy/coffee-cup",
-				name: "put any text in to coffee cup"
-			},
-			{
-				url: "/api/photoxy/wood-hearth",
-				name: "write art quote on wood heart"
-			},
-			{
-				url: "/api/photoxy/flower-hearth",
-				name: "text inside the flower heart"
-			},
-			{
-				url: "/api/photoxy/wooden-boards",
-				name: "writing on wooden boards"
-			},
-			{
-				url: "/api/photoxy/3d-summer",
-				name: "3d summer text effect"
-			},
-			{
-				url: "/api/photoxy/wolf-metal",
-				name: "create a wolf metal text effect"
-			},
-			{
-				url: "/api/photoxy/nature-3d",
-				name: "make nature 3d text effects"
-			},
-			{
-				url: "/api/photoxy/underwater",
-				name: "creating an underwater ocean"
-			},
-			{
-				url: "/api/photoxy/golden-roses",
-				name: "yellow roses text"
-			},
-			{
-				url: "/api/photoxy/summer-nature-bg",
-				name: "create vector nature typography"
-			},
-			{
-				url: "/api/photoxy/typography-leaves",
-				name: "create a layered leaves typography text effect"
-			},
-			{
-				url: "/api/photoxy/under-fall",
-				name: "quotes under fall leaves"
-			},
-			{
-				url: "/api/photoxy/neon-glow",
-				name: "make smoky neon glow effect"
-			},
-			{
-				url: "/api/photoxy/rainbow-shine",
-				name: "rainbow shine text"
-			},
-			{
-				url: "/api/photoxy/army-camouflage-fabric",
-				name: "army camouflage fabric text effect"
-			},
-			{
-				url: "/api/photoxy/3d-glowing",
-				name: "create a 3d glowing text effect"
-			},
-			{
-				url: "/api/photoxy/vintage-text",
-				name: "vintage text style"
-			},
-			{
-				url: "/api/photoxy/honey-text",
-				name: "honey text effect"
-			},
-			{
-				url: "/api/photoxy/under-cube",
-				name: "3d text effect under white cube"
-			},
-			{
-				url: "/api/photoxy/green-leaves",
-				name: "make great quotes on nature"
-			},
-			{
-				url: "/api/photoxy/gradient-avatar",
-				name: "gradient avatar text effect"
-			},
-			{
-				url: "/api/photoxy/glow-rainbow",
-				name: "glow rainbow effect generator"
-			},
-			{
-				url: "/api/photoxy/write-stars",
-				name: "write stars text on the night sky"
-			},
-			{
-				url: "/api/photoxy/fur-effect",
-				name: "fur text effect generator"
-			},
-			{
-				url: "/api/photoxy/crisp-chrome",
-				name: "create a crisp chromed text effect"
-			},
-			{
-				url: "/api/photoxy/embroidery-text",
-				name: "create embroidery text online"
-			},
-			{
-				url: "/api/photoxy/3d-rainbow-bg",
-				name: "create 3d text on rainbow online"
-			},
-			{
-				url: "/api/photoxy/striking-3d",
-				name: "striking 3d text effect online"
-			},
-			{
-				url: "/api/photoxy/summer-watermelon",
-				name: "watermelon text style"
-			},
-			{
-				url: "/api/photoxy/under-web-matrix",
-				name: "text under web matrix effect"
-			},
-			{
-				url: "/api/photoxy/multi-material",
-				name: "multi material text effect"
-			},
-			{
-				url: "/api/photoxy/butter-fly",
-				name: "butterfly text with reflection effect"
-			},
-			{
-				url: "/api/photoxy/wooden-3d-black",
-				name: "3d wood text black style"
-			},
-			{
-				url: "/api/photoxy/banner-metal",
-				name: "create wallpaper with modern metal text"
-			},
-			{
-				url: "/api/photoxy/harry-poter",
-				name: "create harry potter text on horror background"
-			},
-			{
-				url: "/api/photoxy/neon-lights",
-				name: "illuminated metallic effect"
-			},
-			{
-				url: "/api/photoxy/8-bit-arcade",
-				name: "8 bit text on arcade rift"
-			},
-			{
-				url: "/api/photoxy/put-coffee-cup",
-				name: "put your text on a coffee cup"
-			},
-			{
-				url: "/api/photoxy/luxury-royal",
-				name: "royal look text balloon effect"
-			},
-			{
-				url: "/api/photoxy/text-on-scary",
-				name: "text on scary cemetery gate"
-			},
-			{
-				url: "/api/photoxy/woodblock-effect",
-				name: "carved wood effect online"
-			},
-			{
-				url: "/api/photoxy/smoke-typography",
-				name: "smoke typography text effect"
-			},
-			{
-				url: "/api/photoxy/sweet-candy",
-				name: "sweet andy text online"
-			},
-			{
-				url: "/api/photoxy/on-the-silk",
-				name: "simple text on the silk"
-			},
-			{
-				url: "/api/photoxy/royal-patterns",
-				name: "bevel text between royal patterns"
-			},
-			{
-				url: "/api/photoxy/under-orchids",
-				name: "text under flower"
-			},
-			{
-				url: "/api/photoxy/flower-typography",
-				name: "flower typography text effect"
-			},
-			{
-				url: "/api/photoxy/party-neon",
-				name: "create party neon text effect"
-			},
-			{
-				url: "/api/photoxy/dark-metal",
-				name: "create dark metal text with special logo"
-			},
-			{
-				url: "/api/photoxy/csgo",
-				name: "great cs go banner"
-			},
-			{
-				url: "/api/photoxy/grafiti-text-cover",
-				name: "grafiti text cover"
-			},
-			{
-				url: "/api/photoxy/video-spells-name",
-				name: "make a video that spells your name"
-			},
-			{
-				url: "/api/photoxy/battlefield-4-rising",
-				name: "create battlefield 4 rising effect"
+				url: "api/random/blowjob?apikey=ENTER_APIKEY_HERE",
+				name: "BlowJob"
 			}]
 	},
 	{
-		name: 'Educational',
+		name: 'Islam/Muslim API',
 		icon: 'fas fa-book',
 		item: [{
-			url: '/api/kompas',
-			name: 'Kompas'
+			url: 'api/muslim/kisahnabi?nabi=ENTER_NABI&apikey=ENTER_APIKEY_HERE',
+			name: 'Kisah Nabi'
 		},
 			{
-				url: '/api/beritanasional',
-				name: 'berita nasional (Indonesia)'
+				url: 'api/muslim/asmaulhusna?apikey=ENTER_APIKEY_HERE',
+				name: 'Asmaul Husna'
 			},
 			{
-				url: '/api/detik',
-				name: 'Detik'
+				url: 'api/random/asmaulhusna?apikey=ENTER_APIKEY_HERE',
+				name: 'Asmaul Husna 2'
 			},
 			{
-				url: '/api/corohelp',
-				name: 'Corona info'
+				url: 'api/muslim/tahlil?apikey=ENTER_APIKEY_HERE',
+				name: 'Tahlil'
 			},
 			{
-				url: '/api/quran',
-				name: 'Quran'
+				url: 'api/muslim/wirid?apikey=ENTER_APIKEY_HERE',
+				name: 'Wirid'
 			},
 			{
-				url: '/api/wiki',
-				name: 'Wikipedia'
+				url: 'api/muslim/ayatkursi?apikey=ENTER_APIKEY_HERE',
+				name: 'Ayat Kursi'
 			},
 			{
-				url: '/api/terjemahan',
-				name: 'Translate'
+				url: 'api/muslim/doaharian?apikey=ENTER_APIKEY_HERE',
+				name: 'Doa Harian'
 			},
 			{
-				url: '/api/chord',
-				name: 'Chord Gitar'
+				url: 'api/muslim/niatshalat?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Sholat'
+			},
+			{
+				url: 'api/muslim/niatshubuh?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Shubuh'
+			},
+			{
+				url: 'api/muslim/niatdzuhur?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Dzuhur'
+			},
+			{
+				url: 'api/muslim/niatashar?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Ashar'
+			},
+			{
+				url: 'api/muslim/niatmaghrib?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Maghrib'
+			},
+			{
+				url: 'api/muslim/niatisya?apikey=ENTER_APIKEY_HERE',
+				name: 'Niat Isya'
+			},
+			{
+				url: 'api/muslim/bacaanshalat?apikey=ENTER_APIKEY_HERE',
+				name: 'Bacaan Sholat'
 			}]
 	},
 	{
-		name: 'Anime/Manga',
-		icon: 'fas fa-users',
-		item: [{
-			event: 'NSFW',
-			url: '/api/hentai',
-			name: 'Hentai'
-		},
-			{
-				url: '/api/dewabatch',
-				name: 'Dewabatch'
-			},
-			{
-				url: '/api/waifusrc',
-				name: 'waifu search image'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/anime',
-				name: 'Anime'
-			},
-			{
-				event: 'NSFW',
-				url: '/api/yuri',
-				name: 'Yuri'
-			}]
-	},
-	{
-		name: 'Random',
-		icon: 'fas fa-bullseye',
-		item: [{
-			event: 'NSFW/SFW',
-			url: '/api/neko',
-			name: 'Neko'
-		},
-			{
-				event: 'NSFW',
-				url: '/api/neko2',
-				name: 'Neko2'
-			},
-			{
-				url: '/api/randomImage/cecan',
-				name: 'cecan'
-			},
-			{
-				event: 'NEW',
-				url: '/api/randomImage/img/megumin',
-				name: 'megumin'
-			},
-			{
-				url: '/api/loli',
-				name: 'Loli'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/walpaperanime',
-				name: 'Wallpaperanime'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/wallpaperflare',
-				name: 'Wallpaperflare'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/wallpaperhd',
-				name: 'WallpaperHD'
-			},
-		]
-	},
-	{
-		name: 'Nulis',
+		name: 'Other API',
 		icon: 'fas fa-certificate',
 		item: [{
-			url: '/api/canvas/nulis',
-			name: 'Nulis'
+			url: 'api/random/quotes?apikey=ENTER_APIKEY_HERE',
+			name: 'Quotes'
 		},
 			{
-				url: '/api/canvas/nulis2',
-				name: 'nulis 2'
+				url: 'api/kuis/tebakGambar?apikey=ENTER_APIKEY',
+				name: 'Tebak Gambar'
 			},
 			{
-				url: '/docs/resize',
-				name: 'resize image'
+				url: 'api/nulis?teks=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Nulis'
 			},
 			{
-				url: '/docs/yasin',
-				name: 'yasin image'
+				url: 'api/maker/emoji2png?Emoji=kuntuy&apikey=ENTER_APIKEY_HERE',
+				name: 'Emoji2Png'
 			},
 			{
-				url: '/docs/wanted',
-				name: 'wanted'
+				url: 'api/web2plain-text?url=ardi&apikey=ENTER_APIKEY_HERE',
+				name: 'Web2Plain'
 			},
 			{
-				url: '/api/card/Welcome',
-				name: 'Welcome'
+				url: 'api/short/tinyurl?url=ENTER_URL&apikey=ENTER_APIKEY_HERE',
+				name: 'Short Tinyurl'
 			},
 			{
-				url: '/api/card/Welcome2',
-				name: 'Welcome2'
+				url: 'api/jadwal-bioskop?apikey=ENTER_APIKEY_HERE',
+				name: 'Jadwal Bioskop'
 			},
 			{
 
-				url: '/api/card/welcome3',
-				name: 'Welcome3'
+				url: 'api/base?type=ENCODE_DECODE&apikey=ENTER_APIKEY_HERE',
+				name: 'Base64'
 			},
 			{
-				url: '/api/card/goodbye',
-				name: 'Goodbye'
+				url: 'api/tools/wpuser?link=ENTER_URL&apikey=ENTER_APIKEY_HERE',
+				name: 'Tools Wpuser'
 			},
 			{
-				url: '/api/card/goodbye2',
-				name: 'Goodbye2'
+				url: 'api/info/cuaca?kota=ENTER_CITY&apikey=ENTER_APIKEY_HERE',
+				name: 'Info Weather(Cuaca)'
 			},
 			{
 
-				url: '/api/card/goodbye3',
-				name: 'Goodbye3'
+				url: 'api/info/gempa?apikey=ENTER_APIKEY_HERE',
+				name: 'Info Earthquake(Gempa)'
 			},
 			{
-				url: '/api/card/verify',
-				name: 'Verify'
+				url: 'api/search/image?query=ENTER_IMG&apikey=ENTER_APIKEY_HERE',
+				name: 'Search Image'
 			},
 			{
-				url: '/api/card/verify2',
-				name: 'Verify2'
+				url: 'api/info/wikipedia?search=islam&apikey=ENTER_APIKEY_HERE',
+				name: 'WikiPedia'
 			},
 			{
-				url: '/api/card/promote',
-				name: 'Promote'
+				url: 'api/music/liriklagu?query=TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Lirik Lagu'
 			},
 			{
-				url: '/api/card/demote',
-				name: 'Demote'
-			}]
-	},
-	{
-		name: 'Converter',
-		icon: 'fad fa-toolbox',
-		item: [{
-			url: '/docs/converter#jpeg-to-webp',
-			name: 'jpeg to webp'
-		},
-			{
-				url: '/docs/converter#png-to-webp',
-				name: 'png to webp'
+				url: 'api/music/chordlagu?lagu=TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Chord Lagu'
 			},
 			{
-				url: '/docs/converter#gif-to-webp',
-				name: 'gif to webp'
+				url: 'api/info/covidindo?apikey=ENTER_APIKEY_HERE',
+				name: 'Covid19 Indo'
 			},
 			{
-				url: '/docs/converter#video-to-webp',
-				name: 'video to webp'
+				url: 'api/info/covidworld?apikey=ENTER_APIKEY_HERE',
+				name: 'Covid19 World(Dunia)'
 			},
 			{
-				url: '/docs/converter#webp-to-png',
-				name: 'webp to png'
+				url: 'api/spam/call?nomor=856xxxxxx&apikey=ENTER_APIKEY_HERE',
+				name: 'Spam Call'
 			},
 			{
-				url: '/docs/converter#webp-to-jpeg',
-				name: 'webp to jpeg'
+				url: 'api/hilih?kata=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Hilih'
 			},
 			{
-				url: '/docs/converter#webp-to-gif',
-				name: 'webp to gif'
+				url: 'api/halah?kata=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Halah'
 			},
 			{
-				url: '/docs/converter#webp-to-mp4',
-				name: 'webp to video'
-			}]
-	},
-	{
-		name: 'Others',
-		icon: 'fas fa-leaf',
-		item: [{
-			url: '/api/iplookup',
-			name: 'Ip Lookup',
-		},
-			{
-				url: '/api/ssweb',
-				name: 'Ssweb',
+				url: 'api/huluh?kata=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Huluh'
 			},
 			{
-				url: '/api/ssweb2',
-				name: 'Ssweb2',
+				url: 'api/heleh?kata=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Heleh'
 			},
 			{
-				url: '/api/tinyurl',
-				name: 'Tinyurl',
-			},
-			{
-				url: '/api/tinyurl/costum',
-				name: 'Tinyurl costum alias',
-			},
-			{
-				url: '/api/bitly',
-				name: 'Bitly',
-			},
-			{
-				url: '/api/shorturl',
-				name: 'Shorturl',
-			},
-			{
-				url: '/api/cuttly',
-				name: 'Cuttly',
-			},
-			{
-				url: '/api/artinama',
-				name: 'Artinama',
-			},
-			{
-				url: '/api/pasangan',
-				name: 'Pasangan',
-			},
-			{
-				url: '/api/font',
-				name: 'Font',
-			},
-			{
-				url: '/api/font2',
-				name: 'Font2',
-			},
-			{
-				url: '/api/infogempa',
-				name: 'Infogempa',
-			},
-			{
-				url: '/api/cuaca',
-				name: 'cuaca',
-			},
-			{
-				url: '/api/hilih',
-				name: 'Hilih',
-			},
-			{
-				url: '/api/halah',
-				name: 'Halah',
-			},
-			{
-				url: '/api/heleh',
-				name: 'Heleh',
-			},
-			{
-				url: '/api/huluh',
-				name: 'Huluh',
-			},
-			{
-				url: '/api/base64',
-				name: 'Base64 encode/decode',
-			},
-			{
-				url: '/api/hex',
-				name: 'Hex encode/decode',
-			},
-			{
-				url: '/api/tts',
-				name: 'Text To Speech',
-			},
-			{
-				event: 'DARK',
-				url: '/api/darkjokes',
-				name: 'Dark jokes',
+				url: 'api/holoh?kata=ENTER_TEXT&apikey=ENTER_APIKEY_HERE',
+				name: 'Holoh'
 			}]
 	},
 	{
