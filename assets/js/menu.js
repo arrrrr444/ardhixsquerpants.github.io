@@ -128,7 +128,7 @@ try {
 		//-- pengunjung visitor length
 		if (localStorage.getItem('Pengunjung')) {
 			setInterval(function() {
-				fetch("https://api.countapi.xyz/get/hadi-api-viewer/").then(res=>res.json()).then(res=> {
+				fetch("https://api.countapi.xyz/get/ardhixs-api-viewer/").then(res=>res.json()).then(res=> {
 					tag_pengunjung.innerHTML = res.value+" <small>perangkat</small>";
 				});
 			}, 2500);
