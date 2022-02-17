@@ -18,49 +18,21 @@ message_list = [{
 
 item_list = [
 	{
-		name: 'Random',
+		name: 'GameS',
 		icon: 'fas fa-bullseye',
 		item: [{
-			event: 'NSFW/SFW',
-			url: '/api/neko',
-			name: 'Neko'
+			event: 'PLAY',
+			url: '/game/flappybird',
+			name: 'Flappy Bird'
 		},
 			{
-				event: 'NSFW',
-				url: '/api/neko2',
-				name: 'Neko2'
-			},
-			{
-				url: '/api/randomImage/cecan',
-				name: 'cecan'
-			},
-			{
-				event: 'NEW',
-				url: '/api/randomImage/img/megumin',
-				name: 'megumin'
-			},
-			{
-				url: '/api/loli',
-				name: 'Loli'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/walpaperanime',
-				name: 'Wallpaperanime'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/wallpaperflare',
-				name: 'Wallpaperflare'
-			},
-			{
-				event: 'NSFW/SFW',
-				url: '/api/wallpaperhd',
-				name: 'WallpaperHD'
+				event: 'PLAY',
+				url: '/game/pingpong',
+				name: 'Ping Pong'
 			}]
 	},
    {
-	name: 'Downloader/Media API',
+	name: 'Downloader/Media',
 	icon: 'fas fa-arrow-down',
 	item: [{
 		"url": "api/info/mediafire?url=ENTER_URL&apikey=ENTER_APIKEY_HERE",
@@ -112,7 +84,7 @@ item_list = [
 		}]
 },
 	{
-		name: 'TextPro API',
+		name: 'TextPro',
 		icon: 'fas fa-text-height',
 		item: [{
 			"url": "api/textpro/glitch?text=Ardi&text2=Ganz&apikey=ENTER_APIKEY_HERE",
@@ -208,12 +180,16 @@ item_list = [
 			}]
 	},
 	{
-		name: 'Random Image API',
+		name: 'Random Image',
 		icon: 'fas fa-image',
 		item: [{
 			url: "api/dadu?apikey=ENTER_APIKEY_HERE",
 			name: "Dadu"
 		},
+			{
+				url: "api/anime/kusonime?search=ENTER_NIME&apikey=ENTER_APIKEY",
+				name: "Kusonime"
+			},
 			{
 				url: "api/asupan?apikey=ENTER_APIKEY_HERE",
 				name: "Asupan"
@@ -244,7 +220,7 @@ item_list = [
 			}]
 	},
 	{
-		name: 'Islam/Muslim API',
+		name: 'Islam/Muslim',
 		icon: 'fas fa-book',
 		item: [{
 			url: 'api/muslim/kisahnabi?nabi=ENTER_NABI&apikey=ENTER_APIKEY_HERE',
@@ -304,7 +280,7 @@ item_list = [
 			}]
 	},
 	{
-		name: 'Other API',
+		name: 'Other',
 		icon: 'fas fa-certificate',
 		item: [{
 			url: 'api/random/quotes?apikey=ENTER_APIKEY_HERE',
